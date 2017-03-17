@@ -1,0 +1,38 @@
+
+* {
+  padding: 0;
+  margin: 0;
+}
+.parallax-1,
+.parallax-2,
+.parallax-3 {
+  background-attachment: fixed;
+
+  /* center it */
+  background-position: center center;
+
+  /* Scale it nicely to the element */
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.parallax-1 {
+  background-image: url(./image-1.jpeg);
+}
+
+.parallax-2 {
+  background-image: url(./image-2.jpeg);
+}
+
+.parallax-3 {
+  background-image: url(./image-3.jpg);
+}
+
+h1 {
+  font-family: Helvetica;
+  padding: 30px;
+}
+.white {
+  color: white;
+}
